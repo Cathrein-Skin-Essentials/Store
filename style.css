@@ -155,10 +155,13 @@ div.Content > div {
     color: rgb(46, 185, 240);
 }
 @media screen and (max-width: 600px) {
+    body {
+        size: 40%;
     div.Content {
         flex-direction: column;
     }
     #header-title {
         letter-spacing: 5px;
     }
+
 }
